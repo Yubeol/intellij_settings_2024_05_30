@@ -1,0 +1,16 @@
+package org.example;
+
+public class prac7 {
+    public static void main(String[] args) {
+        int rows = 5;
+        // rows라는 변수에 5라는 값을 넣겠다
+        for (int i = 1; i <= rows; i++) {
+            System.out.println("i : " + i);// i라는 변수에 값을 1씩 증가 시키겠다 정수값이 5가되면 break(멈춘다
+            for (int k = 1; k <= i; k++) {// k라는 변수에 값을 넣겠다
+                System.out.print("* ");// 문장 출력
+            }
+            System.out.println();//줄바꿈 첫번째 반복문으로 1증가후 돌아감
+        }
+
+    }
+}
